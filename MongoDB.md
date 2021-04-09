@@ -9,11 +9,13 @@
     </li>
   </ol>
 </details>
+
 ## Change the document root
 > This is really usefull when you want to change document's root, it means if there are any neasted array and toy want to place it as the main "Table" to display you can place it
 ``` JavaScript
 { $replaceRoot: { newRoot: <replacementDocument> } }
 ```
+
 ## Finding registers
 We have different options for this, whe have:
 1. FindOne: This will return a single document
@@ -24,6 +26,7 @@ db.collection.findOne()
 ``` JavaScript
 db.collection.find()
 ```
+
 ## Finding parameters
 We can pass somme extra parms to the command, they are the next ones: 
 1. Query: Is optional. It specifies selection filter using query operators. To return all documents in a collection, omit this parameter or pass an empty document ({}).
