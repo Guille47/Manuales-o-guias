@@ -1,3 +1,5 @@
-Change the document root
+#Change the document root
 
+``` JSON
 { $replaceRoot: { newRoot: <replacementDocument> } }
+```
