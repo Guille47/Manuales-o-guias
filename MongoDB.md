@@ -7,12 +7,6 @@
     <li>
       <a href="#Change-the-document-root">Change the document root</a>
     </li>
-    <li>
-      <a href="#Getting-the-current-date">Getting the current date</a>
-    </li>
-    <li>
-      <a href="#Display-de-date-picker">Display de date picker</a>
-    </li>
   </ol>
 </details>
 
