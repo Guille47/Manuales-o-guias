@@ -20,12 +20,51 @@ To select a database to use, in the mongo shell, issue the use <db> statement, a
 use myDB
 ```
 ### Create a Database
-  
+
 If a database does not exist, MongoDB creates the database when you first store data for that database. As such, you can switch to a non-existent database and perform the following operation in the mongo shell:
 ``` JavaScript
 use myNewDB
 db.myNewCollection1.insertOne( { x: 1 } )
 ```
+The insertOne() operation creates both the database myNewDB and the collection myNewCollection1 if they do not already exist. Be sure that both the database and collection names follow MongoDB Naming Restrictions.
+
+### Create a Collection
+If a collection does not exist, MongoDB creates the collection when you first store data for that collection.
+``` JavaScript
+db.myNewCollection2.insertOne( { x: 1 } )
+db.myNewCollection3.createIndex( { y: 1 } )
+```
+Both the insertOne() and the createIndex() operations create their respective collection if they do not already exist.
+
+### Create a view
+
+Use the db.createCollection() method or the create command:
+``` JavaScript
+// Estructura
+db.createCollection(
+  "<viewName>",
+  {
+    "viewOn" : "<source>",
+    "pipeline" : [<pipeline>],
+    "collation" : { <collation> }
+  }
+)
+// Example
+``` 
+
+Use the db.createView() method:
+``` JavaScript
+// Estructura
+db.createView(
+  "<viewName>",
+  "<source>",
+  [<pipeline>],
+  {
+    "collation" : { <collation> }
+  }
+)
+// Example
+``` 
 
 ## Change the document root
 > This is really usefull when you want to change document's root, it means if there are any neasted array and toy want to place it as the main "Table" to display you can place it
