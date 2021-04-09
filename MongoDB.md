@@ -3,30 +3,31 @@
 <details open="open">
   <summary>Contents table</summary>
   <ol>
-    <li>
-      <a href="#Generalities">Generalities</a>
-    </li>
-    <li>
-      <a href="#Databases">Databases</a>
-    </li>
-    <li>
-      <a href="#Create-a-Database">Create a Database</a>
-    </li>
-    <li>
-      <a href="#Create-a-Collection">Create a Collection</a>
-    </li>
-    <li>
-      <a href="#Create-a-view">Create a view</a>
-    </li>
-    <li>
-      <a href="#Change-the-document-root">Change the document root</a>
-    </li>
-    <li>
-      <a href="#Finding-registers">Finding registers</a>
-    </li>
-    <li>
-      <a href="#Finding-parameters">Finding parameters</a>
-    </li>
+<li>
+<a href="#Generalities">Generalities</a>
+</li>
+<li>
+<a href="#Databases">Databases</a>
+	<li>
+	<a href="#Create-a-Database">Create a Database</a>
+	</li>
+	<li>
+	<a href="#Create-a-Collection">Create a Collection</a>
+	</li>
+	<li>
+	<a href="#Create-a-view">Create a view</a>
+	</li>
+</li>
+
+<li>
+<a href="#Change-the-document-root">Change the document root</a>
+</li>
+<li>
+<a href="#Finding-registers">Finding registers</a>
+</li>
+<li>
+<a href="#Finding-parameters">Finding parameters</a>
+</li>
   </ol>
 </details>
 
